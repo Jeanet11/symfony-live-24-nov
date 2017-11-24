@@ -1,0 +1,11 @@
+demo_homepage:
+    path:     /
+    defaults: { _controller: DemoBundle:Default:index }
+
+salut:
+    path:   /salut
+    defaults: { _controller: DemoBundle:Default:salut }
+
+affiche:
+    path:   /a
+    defaults: { _controller: DemoBundle:Default:afficheProduit }
